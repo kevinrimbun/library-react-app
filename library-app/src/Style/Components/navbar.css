@@ -13,24 +13,27 @@ nav {
     /* padding: 2px; */
 }
 
-.list-wrapper {
+.dropdown-wrapper {
     display: flex;
 }
-
-.list-wrapper li {
-    display: inline;
-    margin: 0 40px;
+.dropdown-right {
+    padding: 0 40px;
+}
+#dropdown-basic-button {
+    background-color: white;
+    color: black;
+    border-color: transparent;
 }
 
 .logo-wrapper {
     display: flex;
-    margin-right: 5%;
+    margin-right: 2%;
 }
 
 .text-logo {
-    margin-left: 5%;
     font-weight: 600;
-    padding-top: 15%;
+    padding-top: 10%;
+    padding-left: 2px;
     font-size: 20px;
     font-weight: 600;
 }
@@ -53,5 +56,5 @@ nav {
 .search-logo {
     position: absolute;
     top: 39%;
-    left: 60%;
+    left: 62%;
 }
