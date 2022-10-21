@@ -7,8 +7,8 @@ import '../../Style/Components/carousel.css'
 import Flickity from 'react-flickity-component'
 
 const flickityOptions = {
-    initialIndex: 2,
-    wrapAround: true
+  initialIndex: 2,
+  wrapAround: true
 }
 
 function Carousel() {
@@ -25,8 +25,8 @@ function Carousel() {
       <div class="gallery-cell">
         <img src={spiderman} alt="spiderman" srcset="" />
         <div className="position-absolute top-50 start-50 translate-middle text-carousel">
-          <h4 className="text-center"><u>Boruto: Naruto Next Generations</u></h4>
-          <p className="text-center">Mikio Ikemoto</p>
+          <h4 className="text-center"><u>The Amazing Spiderman</u></h4>
+          <p className="text-center">Stan Lee</p>
         </div>
       </div>
 
@@ -41,8 +41,8 @@ function Carousel() {
       <div class="gallery-cell">
         <img src={boruto} alt="boruto" srcset="" />
         <div className="position-absolute top-50 start-50 translate-middle text-carousel">
-          <h4 className="text-center"><u>The Amazing Spiderman</u></h4>
-          <p className="text-center ">Stan Lee</p>
+          <h4 className="text-center"><u>Boruto: Naruto Next Generations</u></h4>
+          <p className="text-center ">Mikio Ikemoto</p>
         </div>
       </div>
     </Flickity>

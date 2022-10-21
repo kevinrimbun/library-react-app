@@ -1,0 +1,11 @@
+.text-list h4{
+    padding-top: 5%;
+    padding-left: 5%;
+    font-weight: 510;
+}
+
+.card-homepage {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5%;
+}
