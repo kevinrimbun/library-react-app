@@ -7,5 +7,14 @@
 .card-homepage {
     display: flex;
     justify-content: space-between;
-    margin: 0 5%;
+    margin: 2% 5%;
+}
+
+/* Responsive Tablet */
+@media (max-width: 768px) {
+    .card-homepage {
+        display: block;
+        justify-content: center;
+        
+    }
 }

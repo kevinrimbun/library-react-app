@@ -1,6 +1,7 @@
 import React from 'react';
 import { BsJustify, BsSearch } from 'react-icons/bs';
 import '../../Style/Components/navbar.css';
+import Niki from '../../assets/niki.svg'
 import Logo from '../../assets/lily.png';
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
@@ -8,10 +9,27 @@ import DropdownButton from 'react-bootstrap/DropdownButton';
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className='nav-homepage'>
+        <input type="checkbox" id='check'></input>
         <ul className='navbar'>
-            <div>
-                <li><BsJustify /></li>
+            <div className='toggle-navbar'>
+                <button data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <label for="check">
+                        <li><BsJustify /></li>
+                    </label>
+                </button>
+                <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <button class="btn-close" data-bs-dismiss="offcanvas">
+                        <BsJustify />
+                    </button>
+
+                    <div class="offcanvas-header">
+                        <img src={Niki} alt="" srcset=""/>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div className='sidebar-name'>Niki Zefanya</div>
+                    </div>
+                </div>
             </div>
             {/* Dropdown React Bootsrap */}
             <div className='dropdown-wrapper'>
@@ -37,7 +55,7 @@ const Navbar = () => {
             </form>
             </div>
             <div className='logo-wrapper'>
-                <img src={Logo} className='img-logo'/>
+                <img src={Logo} alt="Logo" className='img-logo'/>
                 <div className='text-logo'>Lily</div>
             </div>
         </ul>

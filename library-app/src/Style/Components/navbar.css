@@ -7,10 +7,50 @@
 
 }
 
-nav {
+.nav-homepage {
     background: #FFFFFF;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     /* padding: 2px; */
+}
+.toggle-navbar {
+    margin-left: 2%;
+    list-style: none;
+}
+.toggle-navbar button{
+    border: none;
+    background: none;
+}
+.toggle-navbar li {
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+#check:checked ~ .home-section{
+    margin-left: 250px;
+    transition: 0.5s;
+}
+.offcanvas.offcanvas-start {
+    width: 20%;
+}
+.offcanvas-start button {
+    margin-top: 5%;
+    margin-left: 80%;
+}
+.offcanvas-header {
+    justify-content: center;
+}
+.offcanvas-header img {
+    width: 50%;
+}
+.offcanvas-body {
+    text-align: center;
+    margin-top: -8%;
+}
+.sidebar-name {
+    font-weight: 600;
+    font-size: 20px;
 }
 
 .dropdown-wrapper {
@@ -23,6 +63,7 @@ nav {
     background-color: white;
     color: black;
     border-color: transparent;
+    font-weight: 600;
 }
 
 .logo-wrapper {
@@ -55,6 +96,6 @@ nav {
 
 .search-logo {
     position: absolute;
-    top: 39%;
-    left: 62%;
+    top: 37.5%;
+    left: 63%;
 }

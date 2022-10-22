@@ -1,0 +1,15 @@
+.nav-content{
+    display: flex;
+    background: transparent;
+    justify-content: space-between;
+}
+.nav-content li {
+    list-style: none;
+}
+.arrow-nav i {
+    background: rgba(255, 255, 255, 1);
+    font-size: 30px;
+}
+.d-flex {
+    margin-top: 5%;
+}
