@@ -77,3 +77,48 @@
 .row p {
     padding-bottom: 10%;
 }
+
+@media (max-width: 768px) {
+    .layout-wrapper .left-section {
+        width: 40%;
+        color: white;
+        background-image: url(../../assets/unsplash.svg);
+        background-position: center;
+        background-size: cover;
+    }
+    .title-left-top{
+        font-weight: 600;
+        font-size: 20px;
+        padding-right: 40%;
+        color: #F9F9F9;
+        margin-left: 8%;
+        margin-top: 100%;
+    }
+    .title-left-bottom {
+        margin-bottom: 1%;
+        margin-left: 3%;
+        font-size: 10px;
+        font-weight: 600;
+        color: #F9F9F9;
+    }
+    .img-login {
+        margin-left: 50%;
+        position: fixed;
+    }
+    .img-login img {
+        width: 65px;
+        height: 65px;
+    }
+    .terms-login {
+        margin-bottom: 2%;
+        margin-left: 50%;
+        font-size: 12px;
+    }
+    .agree {
+        color: rgba(208, 204, 204, 1);
+        font-weight: 600;
+    }
+    .terms-text span {
+        color: rgba(208, 204, 204, 1);
+    }
+}

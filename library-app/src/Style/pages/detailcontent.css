@@ -64,3 +64,43 @@
     border-color: transparent;
     background-color: rgba(251, 204, 56, 1);
 }
+
+@media (max-width: 768px) {
+    .img-content {
+        position: absolute;
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+    }
+    .img-vertical {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        border-radius: 15px;
+        margin-top: 10%;
+        margin-left: 20%;
+    }
+    .category {
+        margin-top:35%;
+        margin-left: 7.5%;
+    }
+    .category button {
+        cursor: pointer;
+        border-radius: 20px;
+        padding: 5px 10px;
+        font-size: 20px;
+        color: white;
+        border-color: transparent;
+        background-color: rgba(251, 204, 56, 1);
+    }
+    .category button, h2, h5 {
+        font-size: 20px;
+    }
+    .availability {
+        margin-top: 35%;
+    }
+    .text-availability {
+        margin-left: 70%;
+        font-size: 25px;
+    }
+}
