@@ -1,11 +1,14 @@
 import React from 'react';
 import '../../Style/Components/navContent.css'
+import { Link } from 'react-router-dom';
 
 const NavContent = () => {
   return (
     <nav className="nav-content">
         <div className='arrow-nav'>
-        <i class="bi bi-arrow-left-short rounded-circle px-1"></i>
+          <Link to='/home'>
+            <i class="bi bi-arrow-left-short rounded-circle px-1"></i>
+          </Link>
         </div>
         <div>
             <ul className='d-flex'>

@@ -2,11 +2,9 @@ import React from 'react';
 import Carousel from '../../Components/Carousel';
 import Navbar from '../../Components/Navbar';
 import Cards from '../../Components/Card';
-import listBook from '../../Data/index.json';
-// import Sidebar from '../../Components/Sidebar';
+// import listBook from '../../Data/index.json';
 import '../../Style/pages/home.css';
 import '../../Style/Components/navbar.css'
-// import Sidebar from '../../Components/Sidebar';
 
 const Home = () => {
 
@@ -21,6 +19,10 @@ const Home = () => {
       </div>
 
       <div className='card-homepage'>
+        <Cards/>
+      </div>
+
+      {/* <div className='card-homepage'>
         {listBook.map(book => {
           return (
             <Cards 
@@ -30,7 +32,7 @@ const Home = () => {
               />
             )
         })}
-      </div>
+      </div> */}
 
     </div>
 
