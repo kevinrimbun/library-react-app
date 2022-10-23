@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.layout-wrapper {
+    display: flex;
+    height: 100vh;
+}
+.layout-wrapper .left-section {
+    width: 60%;
+    color: white;
+    background-image: url(../../assets/unsplash.svg);
+    background-position: center;
+    background-size: cover;
+}
+.title-left-top{
+    font-weight: 600;
+    font-size: 40px;
+    padding-right: 40%;
+    color: #F9F9F9;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+.title-left-bottom {
+    margin-bottom: 1%;
+    margin-left: 3%;
+    font-weight: 600;
+    color: #F9F9F9;
+}
+.layout-wrapper .right-section {
+    flex: 1;
+}
+
+/* Login */
+.form-login {
+    padding-top: 30%;
+}
+.btn-login button{
+    background: #000000;
+    border-radius: 5px;
+    color: white;
+    margin-right: 2%;
+    padding: 5px 20px;
+    transition: 0.5s;
+}
+.img-login {
+    margin-left: 30%;
+    position: fixed;
+}
+.img-login img {
+    width: 95px;
+    height: 95px;
+}
+.text-login-logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+.terms-login {
+    margin-bottom: 2%;
+    margin-left: 67%;
+}
+.agree {
+    color: rgba(208, 204, 204, 1);
+    font-weight: 600;
+}
+.terms-text span {
+    color: rgba(208, 204, 204, 1);
+}
+
+/* Register  */
+.registerForm {
+    margin-top: -15%;
+}
+.login-heading{
+    margin-top: -7%;
+}
+.row p {
+    padding-bottom: 10%;
+}
