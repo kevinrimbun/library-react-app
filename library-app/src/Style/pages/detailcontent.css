@@ -1,0 +1,66 @@
+.img-content {
+    position: absolute;
+    width: 100%;
+    height: 380px;
+    /* margin-top: %; */
+    background-size: cover;
+}
+.nav-content {
+    position: relative;
+    justify-content: space-between;
+    margin: 1% 2%;
+}
+.cover-content {
+    position: relative;
+    display: flex;
+}
+.category {
+    margin-top: 30%;
+    margin-left: 5%;
+}
+.category button {
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 23px;
+    color: white;
+    border-color: transparent;
+    background-color: rgba(251, 204, 56, 1);
+}
+.availability {
+    margin-top: 30%;
+}
+.text-availability {
+    margin-left: 70%;
+    font-size: 25px;
+}
+.img-vertical {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.paratext-btn {
+    margin-top: 1%;
+}
+.paragraph-content {
+    /* margin-top: 2%; */
+    margin-left: 5%;
+    padding-right: 15%;
+    text-align: justify;
+}
+.btn-borrow {
+    margin-right: 3%;
+    /* margin-top: -10%; */
+}
+.btn-borrow button {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 5px 50px;
+    font-size: 23px;
+    color: white;
+    border-color: transparent;
+    background-color: rgba(251, 204, 56, 1);
+}

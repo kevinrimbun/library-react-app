@@ -12,6 +12,8 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     /* padding: 2px; */
 }
+
+/* Sidebar */
 .toggle-navbar {
     margin-left: 2%;
     list-style: none;
@@ -24,19 +26,12 @@
     cursor: pointer;
 }
 
-#check {
-    display: none;
-}
-#check:checked ~ .home-section{
-    margin-left: 250px;
-    transition: 0.5s;
-}
 .offcanvas.offcanvas-start {
     width: 20%;
 }
 .offcanvas-start button {
-    margin-top: 5%;
-    margin-left: 80%;
+    font-size: 20px;
+    font-weight: 600;
 }
 .offcanvas-header {
     justify-content: center;
@@ -47,12 +42,26 @@
 .offcanvas-body {
     text-align: center;
     margin-top: -8%;
+
+}
+.btn-logout, i {
+    text-decoration: none;
+    color: black;
+    margin-left: 15%;
+    font-weight: 600;
 }
 .sidebar-name {
     font-weight: 600;
     font-size: 20px;
 }
+.menu-sidebar div {
+    margin: 10% 0;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
 
+/* Navbar */
 .dropdown-wrapper {
     display: flex;
 }

@@ -25,7 +25,7 @@ function Carousel() {
       <div class="gallery-cell">
         <img src={spiderman} alt="spiderman" srcset="" />
         <div className="position-absolute top-50 start-50 translate-middle text-carousel">
-          <h4 className="text-center"><u>The Amazing Spiderman</u></h4>
+          <h4 className="text-center"><u>Marvel : The Amazing Fantasy Spiderman</u></h4>
           <p className="text-center">Stan Lee</p>
         </div>
       </div>

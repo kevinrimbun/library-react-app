@@ -4,6 +4,7 @@ import Home from '../Home';
 import Login from '../Login';
 import Register from '../Register';
 import DetailContent from '../DetailContent';
+import Auth from '../../Layout/Auth';
 
 const index = () => {
   return (
@@ -13,6 +14,8 @@ const index = () => {
             <Route path='/login' element={<Login/>} />
             <Route path='/home' element={<Home/>} />
             <Route path='/detail-content/:bookId' element={<DetailContent/>} />
+            <Route path='/detail-content' element={<DetailContent/>} />
+            <Route path='/layout' element={<Auth/>} />
         </Routes>
     </BrowserRouter>
   )
