@@ -26,6 +26,9 @@
     cursor: pointer;
 }
 
+.btn-close {
+    margin-left: 80%;
+}
 .offcanvas.offcanvas-start {
     width: 20%;
 }

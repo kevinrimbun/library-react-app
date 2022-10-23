@@ -2,20 +2,19 @@ import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { FloatingLabel, Form } from "react-bootstrap";
-import '../../Style/Components/modal.css'
 
-const ModalAdd = (props) => {
+const ModalEdit = (props) => {
     const { buttonName, modalTitle, className} = props;
 
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    return (
-        <div>
+  return (
+    <div>
         <Button className={className} variant="none" onClick={handleShow}>{buttonName}</Button>
         <Modal show={show} onHide={handleClose}>
             <Modal.Header closeButton>
-            <Modal.Title>Add Book</Modal.Title>
+            <Modal.Title>Edit Book</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <Form>
@@ -43,8 +42,8 @@ const ModalAdd = (props) => {
             </Button>
             </Modal.Footer>
         </Modal>
-        </div>
-    )
+    </div>
+  )
 }
 
-export default ModalAdd
+export default ModalEdit

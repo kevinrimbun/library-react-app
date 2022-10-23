@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import NavContent from '../../Components/NavbarContent';
 import { listBook } from '../../Data';
 import '../../Style/pages/detailcontent.css'
+import ModalDelete from '../../Components/ModalDelete';
 
 const DetailContent = () => {
   const {bookId} = useParams();
@@ -36,7 +37,7 @@ const DetailContent = () => {
           </div>
 
           <div className='btn-borrow'>
-            <button>Borrow</button>
+            <ModalDelete buttonName='Borrow' bookTitle={book.title} message='Berhasil Dipinjam' modalTitle='Borrow Book'/>
           </div>
         </div>
       </div>
