@@ -17,12 +17,13 @@
 
 /* Responsive Tablet */
 @media (max-width: 768px) {
-    .card-homepage {
-        display: block;
-        justify-content: center;
-        
-    }
     .carousel {
         margin-top: 10%;
     }
+    .text-list h4{
+        margin: 3% 0;
+        text-align: center;
+        margin-left: -5%;
+    }
+
 }

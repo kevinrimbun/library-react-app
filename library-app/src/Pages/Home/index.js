@@ -19,9 +19,9 @@ const Home = () => {
         <h4>List Book</h4>
       </div>
 
-      <div className='card-homepage'>
+      {/* <div className='card-homepage'> */}
         <Cards/>
-      </div>
+      {/* </div> */}
 
     </div>
 
